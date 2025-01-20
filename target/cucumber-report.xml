@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.585" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Customer Management activities" name="User can Export CSV" time="10.358">
+<failure type="java.lang.Error" message="Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved
+	driver cannot be resolved
+	driver cannot be resolved
+">
+<![CDATA[java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved
+	driver cannot be resolved
+	driver cannot be resolved
+
+	at stepDefinition.CustomerManagementStep.user_is_login_to_send2_page(CustomerManagementStep.java:19)
+	at ✽.User is login to send2 page(file:///C:/Users/panasa203user/eclipse-workspace/Send2/./Feature/CustomerManagement.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is login to send2 page...........................................failed
+Given User navigate to Customer Management page.............................skipped
+When User Export CSV........................................................skipped
+Then User should able to Export CSV.........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
